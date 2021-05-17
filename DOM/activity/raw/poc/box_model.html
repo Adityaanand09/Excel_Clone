@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:rebeccapurple;
+        margin:0;
+        color:white;
+        font-size:1.5rem;
+    }
+
+    
+    .block{
+        background-color: lightgreen;
+        padding:1rem;
+        margin-left:2rem;
+    }
+    .parent{
+        border: 1px solid red;
+        
+        height:5rem;
+        width:5rem;
+    }
+    .child{
+        border:1px solid blue;
+        background-color: salmon;
+        height:50%;
+        
+    }
+    .child2{
+        border: 1px solid black;
+        background-color: lightslategrey;
+        height:50%;
+    }
+    .inline{
+background-color: red;
+/* padding:1rem;
+margin:1rem; */
+    }
+    .inline-block{
+        display: inline-block;
+        background-color: lightseagreen;
+        height:5rem;
+        width: 5rem;
+    }
+</style>
+<body>
+    <div class="block">hello</div>
+    
+   <div class="parent">
+<div class="child">
+hi!
+</div>
+<div class="child2">
+    how are u?
+</div>
+   </div>
+
+    <!-- block level elemnts=>ul li p h div-->
+    <!--block level element apne parent ki 100% width leta hai-->
+    <!--we can give user defined heightand width to block level element as well-->
+
+    <!--inline elements-->
+    <!-- span img anchor  "we cant give them height and width and they automatically take required width itself"-->
+    <span class="inline">i am span</span>
+<div class="inline-block"></div>
+<div class="inline-block"></div>
+</body>
+</html>
